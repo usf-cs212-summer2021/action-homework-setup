@@ -10,7 +10,7 @@ inputs:
 outputs:
   homework_name:
     description: 'Name of homework parsed from repository name.'
-    value: ${{ PENDING }}
+    value: ${{ steps.parse-name.outputs.homework_name }}
 
 runs:
   using: 'composite'
