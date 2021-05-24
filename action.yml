@@ -5,7 +5,7 @@ inputs:
   min_commits:
     description: 'Minimum number of commits required to earn credit.'
     required: true
-    default: 3
+    default: 1
 
 outputs:
   homework_name:
